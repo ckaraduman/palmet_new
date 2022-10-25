@@ -30,4 +30,10 @@ class PageController extends Controller
         $test_cem='';
         return view('hgf_dashboard', compact('pgp_cons','pgp_budget','baymina_cons', 'baymina_budget', 'test_cem'));
         }
+
+        public function help()
+        {
+            return view('help');
+        }
+
 }

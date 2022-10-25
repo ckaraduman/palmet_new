@@ -59,7 +59,7 @@
                         Yardım Masası
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#">Yardım İstekleri</a></li>
+                        <li><a class="dropdown-item" href="{{Route('help')}}">Yardım İstekleri</a></li>
                         <li><a class="dropdown-item" href="#">Talepler</a></li>
                         <li><a class="dropdown-item" href="#">Ürün/Hizmet Talebi</a></li>
                         <li><a class="dropdown-item" href="#">Öneriler</a></li>
