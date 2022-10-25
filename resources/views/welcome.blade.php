@@ -83,7 +83,7 @@
                         Tüketim Verileri
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#}">Gaz Akış Tabloları</a></li>
+                        <li><a class="dropdown-item" href="{{Route('hgf')}}">Gaz Akış Tabloları</a></li>
                         <li><a class="dropdown-item" href="#">Tüketim Noktaları</a></li>
                         <li><a class="dropdown-item" href="#">Ayarlar</a></li>
                       </ul>
