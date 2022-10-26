@@ -15,8 +15,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    Hoşgeldin {{$name}}!
                 </div>
             </div>
         </div>

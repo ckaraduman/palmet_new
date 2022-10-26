@@ -25,17 +25,22 @@
         /* min-width: 150px; */
         /* width: auto; */
     }
-    div.ck1{
+    /* div.ck1{
       width:300px;
       margin-left: 30px;
-    }
+    } */
+    /* .container{
+      margin-left: 30px;
+    } */
 </style>
 
 <h2>&nbsp;&nbsp;&nbsp;Yardım Talep Formu</h2>
 <form method="post">
+  <div class="form-group"
   @CSRF
-
-    <div class="ck1">
+  <div class="container">
+  <div class="row">
+    <div class="col-4">
       <select class="form-select" aria-label="Default select example">
         <option selected>Talep Türü</option>
         <option value="swhlp">Yazılım Destek</option>
@@ -46,6 +51,16 @@
         <option value="bilgi">Bilgi Talebi</option>
       </select>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <div class="p-1 border bg-light"></div>
+
+      <textarea class="form-control" aria-label="With textarea" placeholder="Açıklamanız"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
 
   <br><br><br>
 
@@ -73,6 +88,9 @@
   <br>
   <input class="f1" type="submit" name="submit"
     value="Gönder">
+  </div>
+
+    </div>
 </form>
 
 </body>
