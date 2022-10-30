@@ -39,17 +39,7 @@ class PageController extends Controller
 
         public function help()
         {
-          $data=Auth::User();
-          return view('help', $data);
-        }
-
-        public function target()
-        {
-            // return view('target',['konu'=>'MakroPort']); -- BU komutla $konu olarak target sayfasında kullanılabilecek değişkeni gönderebiliyoruz.
-
-            $data = 'MakroPort 2022';
-            return view('target', compact('data'));
-            // Bu komutlarla da bir değişkeni karşı tarafa tek başına yollar ve kullanırız.
+            return view('help');
         }
 
 }
